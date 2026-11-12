@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dlp-popup">
+    <div class="popup-header">
+        <span style="font-size: 20px;">🛡️</span>
+        <h2>Generative AI DLP Filter</h2>
+    </div>
+
+    <div class="setting-group">
+        <div class="setting-item">
+            <span>Blokir Data Identitas</span>
+            <label class="switch">
+                <input type="checkbox" checked id="toggle-pii">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="setting-item">
+            <span>Blokir Data Kredensial</span>
+            <label class="switch">
+                <input type="checkbox" checked id="toggle-credentials">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="setting-item">
+            <span>Blokir Data Finansial</span>
+            <label class="switch">
+                <input type="checkbox" checked id="toggle-financial">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="setting-item" style="border-top: 1px solid #eee; padding-top: 12px; margin-top: 4px;">
+            <span>✨ Otomatis Samarkan (Auto-Mask)</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle-automask">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

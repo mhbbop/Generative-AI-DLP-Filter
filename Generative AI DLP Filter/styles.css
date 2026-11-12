@@ -1,0 +1,63 @@
+/* =========================================
+   1. TOAST NOTIFICATION (DI HALAMAN WEB)
+   ========================================= */
+.dlp-toast-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2147483647;
+    width: 400px;
+    background: #ffffff;
+    border-left: 6px solid #e74c3c;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.dlp-toast-icon { font-size: 20px; }
+.dlp-toast-content { flex-grow: 1; }
+.dlp-toast-title { font-weight: bold; color: #c0392b; margin-bottom: 4px; font-size: 14px; }
+.dlp-toast-message { color: #555; font-size: 13px; line-height: 1.4; }
+
+/* =========================================
+   2. POPUP MENU EKSTENSI
+   ========================================= */
+body.dlp-popup {
+    width: 320px; padding: 16px; font-family: sans-serif;
+    background-color: #f8f9fa; color: #333; margin: 0;
+}
+.popup-header {
+    display: flex; align-items: center; gap: 10px;
+    border-bottom: 2px solid #e74c3c; padding-bottom: 10px; margin-bottom: 15px;
+}
+.popup-header h2 { margin: 0; font-size: 16px; color: #2c3e50; }
+.setting-group {
+    background: #ffffff; padding: 12px; border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); border: 1px solid #e0e0e0;
+}
+.setting-item {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 12px; font-size: 13px; font-weight: 500;
+}
+.setting-item:last-child { margin-bottom: 0; }
+
+/* Toggle Switch */
+.switch { position: relative; display: inline-block; width: 36px; height: 20px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider {
+    position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #cbd5e1; transition: 0.3s; border-radius: 20px;
+}
+.slider:before {
+    position: absolute; content: ""; height: 14px; width: 14px;
+    left: 3px; bottom: 3px; background-color: white; transition: 0.3s;
+    border-radius: 50%; box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+input:checked + .slider { background-color: #e74c3c; }
+input:checked + .slider:before { transform: translateX(16px); }
