@@ -1,26 +1,26 @@
-Buka browser Anda dan masuk ke halaman manajemen ekstensi:
+1. Buka browser Anda dan masuk ke halaman manajemen ekstensi:
 
-Chrome: Ketik chrome://extensions/ di bilah alamat (address bar).
+   Chrome: Ketik chrome://extensions/ di bilah alamat (address bar).
 
-Edge: Ketik edge://extensions/.
+   Edge: Ketik edge://extensions/.
 
-Brave: Ketik brave://extensions/.
+   Brave: Ketik brave://extensions/.
 
-Aktifkan Developer mode (Mode Pengembang) menggunakan tombol toggle di pojok kanan atas halaman.
+2. Aktifkan Developer mode (Mode Pengembang) menggunakan tombol toggle di pojok kanan atas halaman.
 
-Klik tombol Load unpacked (Muat yang belum dikemas) yang muncul di kiri atas.
+3. Klik tombol Load unpacked (Muat yang belum dikemas) yang muncul di kiri atas.
 
-Cari dan pilih folder ekstensi yang sudah Anda unduh tadi (pastikan memilih folder yang berisi file manifest.json).
+4. Cari dan pilih folder ekstensi yang sudah Anda unduh tadi (pastikan memilih folder yang berisi file manifest.json).
 
-Ekstensi sekarang sudah terpasang dan siap digunakan!
+5. Ekstensi sekarang sudah terpasang dan siap digunakan!
 
 Untuk Mozilla Firefox
-Unduh atau clone repositori ini ke komputer Anda.
+1. Unduh atau clone repositori ini ke komputer Anda.
 
-Buka Firefox dan ketik about:debugging#/runtime/this-firefox di bilah alamat.
+2. Buka Firefox dan ketik about:debugging#/runtime/this-firefox di bilah alamat.
 
-Klik tombol Load Temporary Add-on... (Muat Pengaya Sementara...).
+3. Klik tombol Load Temporary Add-on... (Muat Pengaya Sementara...).
 
-Cari folder ekstensi yang sudah Anda unduh, lalu pilih file manifest.json di dalam folder tersebut.
+4. Cari folder ekstensi yang sudah Anda unduh, lalu pilih file manifest.json di dalam folder tersebut.
 
-Ekstensi akan aktif secara sementara (ekstensi ini akan hilang jika Firefox ditutup dan harus dimuat ulang saat dibuka kembali).
+5. Ekstensi akan aktif secara sementara (ekstensi ini akan hilang jika Firefox ditutup dan harus dimuat ulang saat dibuka kembali).
